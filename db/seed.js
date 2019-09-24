@@ -1,5 +1,6 @@
 const mongoose = require("./connection")
 const Model = require('./model')
+const axios = require('axios')
 
 const seedData = require('./sample.json')
 
